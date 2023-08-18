@@ -29,9 +29,7 @@ do {
 
         //do while döngüde kalmayı sağlar, switch veya if menülere yönlenmeyi sağlar...
         {
-            // ÇIKIŞ YAPILMADIĞI SÜRECE ANA MENÜ VEYA ALT MENÜLER ARASINDA DOLAŞILABİLMELİ.
-            // AŞAĞIDAKİ METODLARIN BULUNDUĞU YERE GİDEREK, İLGİLİ METODU TANIMLAYINIZ...
-            // CTRL + SOL tık LA METODLAR ARASINDA DOLAŞABİLİRSİNİZ.
+            
 
 
             System.out.print("Lutfen Menuden tercihinizi yapiniz:");
@@ -90,9 +88,7 @@ do {
         }
 
         //////////////////////////////////////////////////////////////////////////////
-        // BU BLOĞU DEĞİŞTİRMEYİN, DİKKATE ALMAYIN...                               //
-        // SİLİNECEK KİMLİK NO YOKSA VEYA BAŞKA BEKLENMEDİK                         //
-        // ŞEYLER OLURSA KODUN DEVAMINI SAĞLAYACAK... DAHA SONRA GÖRÜLECEK.         //
+        //         //
         try {                                                                       //
             boolean sonuc = sonucValue.equals(silinecekValue);                      //
         } catch (Exception e) {                                                     //
